@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi amor ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Portada de la sorpresa -->
+    <section id="inicio" class="pantalla-inicial">
+        <div class="estrellas"></div>
+
+        <div class="contenido-inicial">
+            <span class="texto-superior">UN REGALO PARA TI</span>
+
+            <div class="corazon">♥</div>
+
+            <h1>Hay algo que quiero<br>decirte Firu...</h1>
+
+            <p>
+                Hoy quiero recordarte lo increíble que es compartir mi vida contigo.
+                Preparé algo especial para ti, con todo el amor que llevo en mi corazón.
+                Un pequeño lugar donde guardé un poquito de todo lo que siento por ti.
+            </p>
+
+            <button id="abrirSorpresa">
+                Abrir mi sorpresa <span>♡</span>
+            </button>
+
+            <div class="firma-inicial">De tu Duki, Con todo mi Amor ❤️</div>
+        </div>
+    </section>
+
+    <!-- Contenido principal -->
+    <main id="contenido" class="oculto">
+
+        <section class="hero">
+            <span class="etiqueta">PARA EL AMOR DE MI VIDA</span>
+            <h1>Feliz Aniversario,<br><span>Mi Amor ❤️</span></h1>
+            <p>Qué bonito coincidir contigo en esta vida.</p>
+        </section>
+
+        <!-- Nuestra canción -->
+<section class="cancion-seccion">
+    <div class="disco">
+        <div class="disco-centro">❤️</div>
+    </div>
+
+    <span class="etiqueta">UNA CANCIÓN PARA NOSOTROS</span>
+
+    <h2>Mi Firu, mi hogar</h2>
+
+    <p class="dedicatoria-cancion">
+        Esta canción la hice pensando en ti.
+        Cada palabra lleva un pedacito de mi corazón.
+    </p>
+
+    <audio id="musica" src="mi-cancion.mp3" preload="metadata"></audio>
+
+    <button id="botonMusica" class="boton-musica">
+        <span id="iconoMusica">▶</span>
+        <span id="textoMusica">Escuchar nuestra canción</span>
+    </button>
+
+    <div class="progreso-contenedor">
+        <span id="tiempoActual">0:00</span>
+        <input type="range" id="progreso" min="0" max="100" value="0">
+        <span id="duracion">2:59</span>
+    </div>
+</section>
+        <section class="contador-seccion">
+            <h2>Todo este tiempo juntos...</h2>
+            <p>Y sigo eligiéndote cada día.</p>
+
+            <div id="contador" class="contador">
+                <div><strong id="dias">0</strong><span>Días</span></div>
+                <div><strong id="horas">0</strong><span>Horas</span></div>
+                <div><strong id="minutos">0</strong><span>Minutos</span></div>
+                <div><strong id="segundos">0</strong><span>Segundos</span></div>
+            </div>
+        </section>
+
+        
+<!-- NUESTRA HISTORIA -->
+<section class="historia-v2" id="historia">
+
+    <div class="historia-encabezado">
+        <span class="historia-etiqueta">Tú y yo · Desde 2016</span>
+        <h2>Una historia llamada <span>amor</span></h2>
+        <p>
+            De un encuentro inesperado a una vida juntos.
+            Estos son algunos de los capítulos más bonitos de nuestra historia.
+        </p>
+        <div class="historia-corazon">♡</div>
+    </div>
+
+    <div class="historia-recuerdos">
+
+        <!-- RECUERDO 1 -->
+        <article class="recuerdo">
+            <div class="recuerdo-foto">
+                <img src="imagenes/recuerdo1.jpg" alt="Nuestros comienzos">
+                <span class="recuerdo-numero">01</span>
+            </div>
+
+            <div class="recuerdo-texto">
+                <span class="recuerdo-fecha">2016 · El comienzo</span>
+                <h3>Donde todo comenzó</h3>
+                <p>
+                    Nos conocimos en la escuela, sin imaginar que
+                    aquel encuentro sería el inicio de una historia
+                    que cambiaría nuestras vidas.
+                </p>
+                <span class="recuerdo-frase">
+                    "Qué bonito que la vida nos haya encontrado."
+                </span>
+            </div>
+        </article>
+
+        <!-- RECUERDO 2 -->
+        <article class="recuerdo recuerdo-inverso">
+            <div class="recuerdo-foto">
+                <img src="imagenes/recuerdo2.jpg" alt="El inicio de nuestro amor">
+                <span class="recuerdo-numero">02</span>
+            </div>
+
+            <div class="recuerdo-texto">
+                <span class="recuerdo-fecha">Un poquito después</span>
+                <h3>Una ayuda que se convirtió en amor</h3>
+                <p>
+                    Todo comenzó con un "te ayudo a estudiar",
+                    pero después llegaron las pláticas, las risas
+                    y esas ganas de seguir compartiendo tiempo juntos.
+                </p>
+                <span class="recuerdo-frase">
+                    "Ya no eran tareas, eran ganas de estar contigo."
+                </span>
+            </div>
+        </article>
+
+        <!-- RECUERDO 3 -->
+        <article class="recuerdo">
+            <div class="recuerdo-foto">
+                <img src="imagenes/recuerdo3.jpg" alt="Sesión de fotos juntos">
+                <span class="recuerdo-numero">03</span>
+            </div>
+
+            <div class="recuerdo-texto">
+                <span class="recuerdo-fecha">Febrero · 2023</span>
+                <h3>Quise guardar tu belleza</h3>
+                <p>
+                    Te hice una sesión de fotos que se convirtió
+                    en uno de esos recuerdos que guardo con mucho cariño.
+                    Quería que pudieras verte con mis ojos y recordar
+                    lo maravillosa que eres.
+                </p>
+                <span class="recuerdo-frase">
+                    "La cámara guardó las fotos, mi corazón guardó el momento."
+                </span>
+            </div>
+        </article>
+
+        <!-- RECUERDO 4 -->
+        <article class="recuerdo recuerdo-inverso">
+            <div class="recuerdo-foto">
+                <img src="imagenes/recuerdo4.jpg" alt="Nuestra boda">
+                <span class="recuerdo-numero">04</span>
+            </div>
+
+            <div class="recuerdo-texto">
+                <span class="recuerdo-fecha">16 · 12 · 2023</span>
+                <h3>El sí más bonito de mi vida</h3>
+                <p>
+                    Nos convertimos en esposos y comenzamos
+                    oficialmente nuestra aventura juntos.
+                    Ese día te elegí para toda la vida,
+                    y lo volvería a hacer una y mil veces.
+                </p>
+                <span class="recuerdo-frase">
+                    "Mi mejor decisión siempre serás tú."
+                </span>
+            </div>
+        </article>
+
+        <!-- RECUERDO 5 -->
+        <article class="recuerdo">
+            <div class="recuerdo-foto">
+                <img src="imagenes/recuerdo5.jpg" alt="Nuestro primer hogar">
+                <span class="recuerdo-numero">05</span>
+            </div>
+
+            <div class="recuerdo-texto">
+                <span class="recuerdo-fecha">Nuestra nueva etapa</span>
+                <h3>Donde aprendimos a ser hogar</h3>
+                <p>
+                    Los primeros días viviendo juntos, compartiendo
+                    nuestras cosas, nuestras rutinas y nuestros sueños.
+                    Descubrí que el hogar no son las paredes,
+                    sino la persona que está a tu lado.
+                </p>
+                <span class="recuerdo-frase">
+                    "Mi lugar favorito siempre será contigo."
+                </span>
+            </div>
+        </article>
+
+        <!-- RECUERDO 6 -->
+        <article class="recuerdo recuerdo-inverso recuerdo-final">
+            <div class="recuerdo-foto">
+                <img src="imagenes/recuerdo6.jpg" alt="Nuestro presente">
+                <span class="recuerdo-numero">06</span>
+            </div>
+
+            <div class="recuerdo-texto">
+                <span class="recuerdo-fecha">Hoy · Y para siempre</span>
+                <h3>Lo mejor aún está por venir</h3>
+                <p>
+                    Gracias por cada momento, por cada sonrisa,
+                    por compartir tu vida conmigo y por hacer
+                    que hasta los días más sencillos sean especiales.
+                    Quiero seguir escribiendo nuestra historia
+                    contigo por el resto de mi vida.
+                </p>
+                <span class="recuerdo-frase">
+                    "Mi capítulo favorito siempre será el que vivo contigo."
+                </span>
+            </div>
+        </article>
+
+    </div>
+
+    <div class="historia-cierre">
+        <span>Y nuestra historia continúa...</span>
+        <div class="cierre-corazones">♡ &nbsp; ♥ &nbsp; ♡</div>
+        <p>Te amo, mi Firu.</p>
+        <small>Con amor, tu Duki.</small>
+    </div>
+
+</section>
+
+
+        <section class="galeria">
+            <h2>Nuestros recuerdos 📸</h2>
+            <p class="subtitulo">Cada fotografía guarda un pedacito de nuestra historia.</p>
+
+            <div class="fotos">
+                <div class="foto"><img src="imagenes/recuerdo7.jpg" alt="Nuestro recuerdo ❤️"></div>
+                <div class="foto"><img src="imagenes/recuerdo8.jpg" alt="Un momento juntos ❤️"></div>
+                <div class="foto"><img src="imagenes/recuerdo9.jpg" alt="Un día especial ❤️"></div>
+                <div class="foto"><img src="imagenes/recuerdo10.jpg" alt="Mi favorito ❤️"></div>
+            </div>
+        </section>
+
+        <section class="carta">
+    <h2>De mi corazón para ti 💌</h2>
+
+    <p class="subtitulo">
+        Hay cosas que quiero decirte, aunque nunca me cansaré de demostrártelas.
+    </p>
+
+    <button id="abrirCarta">Abrir mi carta ❤️</button>
+
+    <div id="mensajeCarta" class="mensaje-carta oculto">
+
+        <p>
+            Mi Firu hermosa...
+        </p>
+
+        <p>
+            Hoy quiero recordarte lo feliz que me hace tenerte en mi vida.
+            Desde aquel 16 de diciembre de 2023, cuando nos convertimos
+            en esposos, comenzó una etapa que atesoro con todo mi corazón.
+        </p>
+
+        <p>
+            Gracias por compartir conmigo tus días, tus sonrisas, tus sueños,
+            tus ocurrencias, tus abrazos y también los momentos difíciles.
+            Gracias por ser mi compañera, por estar a mi lado y por hacer
+            que la palabra hogar tenga un significado tan bonito.
+        </p>
+
+        <p>
+            No prometo que todos los días serán perfectos, pero sí quiero
+            seguir esforzándome por hacerte feliz, cuidarte, escucharte,
+            apoyarte y recordarte lo importante que eres para mí.
+        </p>
+
+        <p>
+            Si pudiera volver a aquel día y elegir nuevamente, volvería
+            a elegirte a ti. Con tus detalles, tu forma de ser, tu sonrisa
+            y todo lo que te hace única. Te elegiría en cada vida,
+            en cada historia y en cada oportunidad.
+        </p>
+
+        <p>
+            Gracias por ser mi esposa, mi compañera, mi alegría y mi amor.
+            Gracias por estos años y por todos los que todavía nos esperan.
+        </p>
+
+        <p>
+            Te amo muchísimo, Firu. Feliz aniversario, mi corazón.
+        </p>
+
+        <p class="firma-carta">
+            Siempre tuyo,<br>
+            Tu Duki ❤️
+        </p>
+
+    </div>
+</section>
+
+        <footer>
+            <h2>Te elegiría una y mil veces más ❤️</h2>
+            <p>Con amor, para nosotros.</p>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+    <!-- Música especial -->
+<div class="music-player">
+    <audio id="musica" loop>
+        <source src="mi-cancion.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="botonMusica">
+        ♫ Escuchar nuestra canción
+    </button>
+</div>
+</body>
+</html>
